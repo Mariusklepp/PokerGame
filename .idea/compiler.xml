@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PokerGame" />
         <module name="Pokergame" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PokerGame" target="25" />
+    </bytecodeTargetLevel>
   </component>
 </project>
